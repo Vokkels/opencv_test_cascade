@@ -1,4 +1,4 @@
-A small java application for testing numerous cascades by providing quick and east feedback for debugging training data
+A small java application for testing numerous cascades by providing quick feedback for debugging training data
 
 Usage:
 java -jar opencv_test_cascade.jar -cascade [ cascade name] -scan [ image 1][ image 2][ image 2]
