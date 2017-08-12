@@ -92,16 +92,11 @@ public class imgrec {
 
         shouldRun = true;
         for (int i = idx; i < args.length && !args[i].substring(0,1).equals("-"); i++) {
-            if (!args[i].contains(".jpg")) {
-
                 // Gets path to file
                 // File img = new File(System.getProperty("user.dir") + args[i]);
                 File file = new File(args[i]);
                 imageFiles.add(file);
                 out("Added: " + file.getAbsolutePath());
-
-
-            } else out("Unsupported Image Format");
         }
 
     }
